@@ -13,6 +13,7 @@ public class factorial{
         int n = 8;
         int ans = calfactorial1(n); //n=3
         System.out.println(ans);
+        System.out.println(ans);
 
     }
 }
