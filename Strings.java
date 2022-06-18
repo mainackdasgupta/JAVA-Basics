@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class Strings {
 
@@ -45,6 +45,11 @@ public class Strings {
       String T3 = T1 + " "+ T2;
       String T4 = "Bruce Wanye";
       System.out.println(T3);
+
+      // user input in strings.
+      Scanner sc = new Scanner(System.in);
+      String T = sc.nextLine();
+      System.out.println(T);
 
       //ParseInt Method of Integer class
       String str = "123";
