@@ -1,13 +1,13 @@
 public class FibonacciR {
-    public static void printFibo(int secondlastterm, int lastterm, int n){
+    public static void printFibo(int secondlastterm, int lastterm, int numberofterms){
 
-        if(n == 0){
+        if(numberofterms == 0){
             return ;
         }
 
         int nextterm = lastterm + secondlastterm;
         System.out.println(nextterm);
-        printFibo(lastterm, nextterm, n-1);
+        printFibo(lastterm, nextterm, numberofterms-1);
 
     }
     public static void main(String args[]){
