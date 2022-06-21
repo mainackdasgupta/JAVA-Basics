@@ -6,15 +6,15 @@ public class FibonacciR {
         }
 
         int nextterm = lastterm + secondlastterm;
-        System.out.println(nextterm);
+        System.out.print(nextterm);
         printFibo(lastterm, nextterm, numberofterms-1);
 
     }
     public static void main(String args[]){
         int firstterm = 0;
         int secondterm = 1;
-        System.out.println(firstterm);
-        System.out.println(secondterm);
+        System.out.print(firstterm);
+        System.out.print(secondterm);
 
         int numberofterms = 7;                                // this can be taken from user but here i have taken 7.
 
