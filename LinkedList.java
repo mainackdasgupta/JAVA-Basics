@@ -4,7 +4,6 @@ public class LinkedList {
     Node head;
     //private int size;
    
-
    /*  LinkedList(){
         size = 0;
     } */
